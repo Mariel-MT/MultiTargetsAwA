@@ -18,11 +18,20 @@
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
       <a-entity mindar-image-target="targetIndex: 0">
-        <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="1 1 1" src="#GatoBananaModel" animation="property: position; to: 0 0.1 0.1; dur:1000; easing: easeInOutQuad; loop: true; dir: alternate">
-      </a-entity>
-      <a-entity mindar-image-target="targetIndex: 1">
-        <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="1 1 1" src="#PusheenModel" animation="property: position; to: 0 0.1 0.1; dur:1000; easing: easeInOutQuad; loop: true; dir: alternate">
-      </a-entity>
+  <a-box
+    position="0 0 0"
+    scale="0.5 0.5 0.5"
+    color="red">
+  </a-box>
+</a-entity>
+
+<a-entity mindar-image-target="targetIndex: 1">
+  <a-sphere
+    position="0 0 0"
+    radius="0.3"
+    color="blue">
+  </a-sphere>
+</a-entity>
     </a-scene>
   </body>
 </html>
